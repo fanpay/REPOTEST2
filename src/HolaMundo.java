@@ -1,15 +1,21 @@
-/*
- * To change this license header, choose License Headers in Project Properties.
- * To change this template file, choose Tools | Templates
- * and open the template in the editor.
- */
 
-/**
- *
- * @author General
- */
+import javax.swing.JOptionPane;
+
+
 public class HolaMundo {
     public static void main(String args[]){
-        System.out.println("Hola mundo");
+        String sujeto = JOptionPane.showInputDialog("Ingresa tu nombre: ");
+        saludar(sujeto);
     }
+    
+    /**
+     * Función que muestra un mensaje de dialogo con un saludo de acuerdo al parámetro
+     * recibido
+     * 
+     * @param nombre 
+     */
+    public static void saludar(String nombre){
+        JOptionPane.showMessageDialog(null, "Hola "+nombre , "Saludo", JOptionPane.INFORMATION_MESSAGE);
+    }
+    
 }
