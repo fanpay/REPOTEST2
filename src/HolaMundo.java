@@ -15,7 +15,7 @@ public class HolaMundo {
      * @param nombre 
      */
     public static void saludar(String nombre){
-        JOptionPane.showMessageDialog(null, "Hi "+nombre , "Greetings", JOptionPane.INFORMATION_MESSAGE);
+        JOptionPane.showMessageDialog(null, "Hi22 "+nombre , "Greetings", JOptionPane.INFORMATION_MESSAGE);
     }
     
 }
