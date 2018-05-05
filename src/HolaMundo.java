@@ -4,7 +4,7 @@ import javax.swing.JOptionPane;
 
 public class HolaMundo {
     public static void main(String args[]){
-        String sujeto = JOptionPane.showInputDialog("Ingresa tu nombre: ");
+        String sujeto = JOptionPane.showInputDialog("Put your name: ");
         saludar(sujeto);
     }
     
@@ -15,7 +15,7 @@ public class HolaMundo {
      * @param nombre 
      */
     public static void saludar(String nombre){
-        JOptionPane.showMessageDialog(null, "Hola "+nombre , "Saludo", JOptionPane.INFORMATION_MESSAGE);
+        JOptionPane.showMessageDialog(null, "Hi "+nombre , "Greetings", JOptionPane.INFORMATION_MESSAGE);
     }
     
 }
