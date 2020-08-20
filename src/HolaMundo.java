@@ -20,8 +20,8 @@ public class HolaMundo {
     
     }
 
-    public static void decirWara(String nombre){
-        JOptionPane.showMessageDialog(null, "Wara "+nombre , "Keloke", JOptionPane.INFORMATION_MESSAGE);
+    public static void decirHola(String nombre){
+        JOptionPane.showMessageDialog(null, "Saludos "+nombre , "Ando aburrido, solo saludo", JOptionPane.INFORMATION_MESSAGE);
     }
 
 }
